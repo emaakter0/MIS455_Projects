@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Exercise - Healthy Living</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="nutrition.html">Nutrition</a>
+        <a href="exercise.html">Exercise</a>
+    </nav>
+    <header>
+        <h1>Stay Active</h1>
+    </header>
+    <main>
+        <section class="content">
+            <h2>Exercise and Wellness</h2>
+            <p>Physical activity is a key component of a healthy lifestyle. Here, you'll find information on different exercises and workouts to stay fit.</p>
+            <img src="exercise1.jpg" alt="Exercise Routine">
+            <p>Ready to get moving? Use the form below to set your exercise goals and track your progress:</p>
+            <form id="exerciseForm">
+                <label for="goal">Exercise_Goal:</label>
+                <input type="text" id="goal" required>
+                <label for="progress">Progress_(in_minutes):</label>
+                <input type="number" id="progress" required>
+                <button type="button" onclick="trackProgress()">Track Progress</button>
+            </form>
+            <div id="output"></div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 Healthy Living
+    </footer>
+</body>
+</html>
